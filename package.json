@@ -1,0 +1,12 @@
+{
+  "name": "field-agent-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scores prospects into a call order and surfaces the nearby open work worth calling about.",
+  "scripts": {
+    "start": "node src/cli.ts",
+    "test": "node --test src/*.test.ts"
+  },
+  "engines": { "node": ">=22.6" }
+}
